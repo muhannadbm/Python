@@ -1,8 +1,8 @@
 # Description
 This repository contains different kind of Modules, sorted by complexity from lowest to highest, programmed in Python:
 # Modules
-Coding-an-interactive-script: (A simple die roller)
-  die.py: A simple die roller
+- Coding-an-interactive-script: (A simple die roller)
+  - die.py: A simple die roller
 
 
 - Challange-problems: (Some operations on strings)
@@ -13,18 +13,20 @@ Coding-an-interactive-script: (A simple die roller)
   - exercise2/funcs.py: a Module for scoring blackjack hands.
   
   
-Programming-with-functions: (Some operations on strings)
-  funcs.py: matching_parens(String s) function: Returns True if the string s has a matching pair of parentheses.
-            first_in_parens(String s) function: Returns The substring of s that is inside the first pair of parentheses.
+- Programming-with-functions: (Some operations on strings)
+  - funcs.py: 
+    - matching_parens(String s) function: Returns True if the string s has a matching pair of parentheses.
+    - first_in_parens(String s) function: Returns The substring of s that is inside the first pair of parentheses.
 
 
-Processing-images: (a Project consisting of various image processing functions)
-  plugins.py: mono(image, sepia=False): Returns True after converting the image to monochrome.
-              flip(image,vertical=False): Returns True after reflecting the image horizontally or vertically.
-              transpose(image): Returns True after transposing the image.
-              rotate(image,right=False): Returns True after rotating the image left of right by 90 degrees.
-              vignette(image): Returns True after vignetting (corner darkening) the current image.
-              blur(image,radius=5): Returns True after bluring the image.
+- Processing-images: (a Project consisting of various image processing functions)
+  - plugins.py: 
+    - mono(image, sepia=False): Returns True after converting the image to monochrome.
+    - flip(image,vertical=False): Returns True after reflecting the image horizontally or vertically.
+    - transpose(image): Returns True after transposing the image.
+    - rotate(image,right=False): Returns True after rotating the image left of right by 90 degrees.
+    - vignette(image): Returns True after vignetting (corner darkening) the current image.
+    - blur(image,radius=5): Returns True after bluring the image.
 
 
 Implementing-a-currency-converter: (A project that use a webservice to obtain results according to criteria defined by the user and return it to him)
