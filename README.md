@@ -1,6 +1,6 @@
-#Description
+# Description
 This repository contains different kind of Modules, sorted by complexity from lowest to highest, programmed in Python:
-#Modules
+# Modules
 Coding-an-interactive-script: (A simple die roller)
   die.py: A simple die roller
 
