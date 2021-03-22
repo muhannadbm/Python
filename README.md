@@ -4,6 +4,10 @@ This repository contains different kind of Modules, sorted by complexity from lo
 - Coding-an-interactive-script: (A simple die roller)
   - die.py: A simple die roller
 
+- Programming-with-functions: (Some operations on strings)
+  - funcs.py: 
+    - matching_parens(String s) function: Returns True if the string s has a matching pair of parentheses.
+    - first_in_parens(String s) function: Returns The substring of s that is inside the first pair of parentheses.
 
 - Challange-problems: (Some operations on strings)
   - exercise1/funcs.py: A function to find all instances of a substring.
@@ -12,11 +16,19 @@ This repository contains different kind of Modules, sorted by complexity from lo
   
   - exercise2/funcs.py: a Module for scoring blackjack hands.
   
-  
-- Programming-with-functions: (Some operations on strings)
-  - funcs.py: 
-    - matching_parens(String s) function: Returns True if the string s has a matching pair of parentheses.
-    - first_in_parens(String s) function: Returns The substring of s that is inside the first pair of parentheses.
+  - Implementing-a-currency-converter: (A project that use a webservice to obtain results according to criteria defined by the user and return it to him)
+  - currency.py: (Module for currency exchange)
+    - before_space(String s): Returns the substring of s up to, but not including, the first space.
+    - after_space(String s): Returns the substring of s after the first space
+    - first_inside_quotes(String s): Returns the first substring of s between two (double) quote characters
+    - get_src(String json): Returns the src value in the response to a currency query.
+    - get_dst(String json): Returns the dst value in the response to a currency query.
+    - has_error(String json): Returns True if the response to a currency query encountered an error.
+    - service_response(String src,String dst, Int amt) function: Returns a JSON string that is a response to a currency query.
+    - iscurrency(String currency): Returns True if currency is a valid (3 letter code for a) currency.
+    - exchange(String src,String dst, Int amt): Returns the amount of currency received in the given exchange.
+  - exchangeit.py: (User interface for module currency)
+
 
 
 - Processing-images: (a Project consisting of various image processing functions)
@@ -29,20 +41,6 @@ This repository contains different kind of Modules, sorted by complexity from lo
     - blur(image,radius=5): Returns True after bluring the image.
 
 
-- Implementing-a-currency-converter: (A project that use a webservice to obtain results according to criteria defined by the user and return it to him)
-  - currency.py: (Module for currency exchange)
-    - before_space(String s): Returns the substring of s up to, but not including, the first space.
-    - after_space(String s): Returns the substring of s after the first space
-    - first_inside_quotes(String s): Returns the first substring of s between two (double) quote characters
-    - get_src(String json): Returns the src value in the response to a currency query.
-    - get_dst(String json): Returns the dst value in the response to a currency query.
-    - has_error(String json): Returns True if the response to a currency query encountered an error.
-    - service_response(String src,String dst, Int amt) function: Returns a JSON string that is a response to a currency query.
-    - iscurrency(String currency): Returns True if currency is a valid (3 letter code for a) currency.
-    - exchange(String src,String dst, Int amt): Returns the amount of currency received in the given exchange.
-  - exchangeit.py: (User interface for module currency)
-  
-  
 - Auditing-datasets:(a Project to analyze data(json and cvs) from airlines company's flights and pilots and weather during those flights and list all violations)
   - auditor/utils.py: (Module providing utility functions for this project.)
     - read_csv(filename): Returns the contents read from the CSV file filename.
