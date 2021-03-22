@@ -5,12 +5,12 @@ Coding-an-interactive-script: (A simple die roller)
   die.py: A simple die roller
 
 
-Challange-problems: (Some operations on strings)
-  exercise1/funcs.py: A function to find all instances of a substring.
+- Challange-problems: (Some operations on strings)
+  - exercise1/funcs.py: A function to find all instances of a substring.
   
-  exercise2/funcs.py: Returns the text encoded by shifting each letter by n positions. (Caesar-style substitution ciphers).
+  - exercise2/funcs.py: Returns the text encoded by shifting each letter by n positions. (Caesar-style substitution ciphers).
   
-  exercise2/funcs.py: a Module for scoring blackjack hands.
+  - exercise2/funcs.py: a Module for scoring blackjack hands.
   
   
 Programming-with-functions: (Some operations on strings)
