@@ -41,7 +41,7 @@ This repository contains different kind of Modules, sorted by complexity from lo
     - blur(image,radius=5): Returns True after bluring the image.
 
 
-- Auditing-datasets:(a Project to analyze data(json and cvs) from airlines company's flights and pilots and weather during those flights and list all violations)
+- Auditing-datasets:(a Project to analyze data(json and cvs) from airlines company's flights and pilots information and weather reports during those flights and list all violations with details of each violation or write them to a file)
   - auditor/utils.py: (Module providing utility functions for this project.)
     - read_csv(filename): Returns the contents read from the CSV file filename.
     - write_csv(data,filename): Writes the given data out as a CSV file filename.
