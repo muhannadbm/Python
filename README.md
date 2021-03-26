@@ -1,5 +1,6 @@
 # Description
-This repository contains different kind of Modules, sorted by complexity from lowest to highest, programmed in Python:
+This repository contains different kind of Modules and projects, sorted by complexity from lowest to highest, programmed in Python, these projects include processing input images, and handling large amount of complex data and process it and coming with an output according to that data, Projects are explained in details below:
+ 
 # Modules
 - Coding-an-interactive-script: (A simple die roller)
   - die.py: A simple die roller
