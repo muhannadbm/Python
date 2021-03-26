@@ -1,23 +1,23 @@
 # Description
-This repository contains different kind of Modules and projects, sorted by complexity from lowest to highest, programmed in Python, these projects include processing input images, and handling large amount of complex data and process it and coming with an output according to that data, Projects are explained in details below:
+A number of projects, sorted by complexity from lowest to highest, programmed in Python, these projects include processing input images, and handling large amount of complex data and process it and coming with an output according to that data, Projects are explained in details below:
  
 # Modules
 - Coding-an-interactive-script: (A simple die roller)
   - die.py: A simple die roller
 
-- Programming-with-functions: (Some operations on strings)
+- **Programming-with-functions: (Some operations on strings)
   - funcs.py: 
     - matching_parens(String s) function: Returns True if the string s has a matching pair of parentheses.
     - first_in_parens(String s) function: Returns The substring of s that is inside the first pair of parentheses.
 
-- Challange-problems: (Some operations on strings)
+- **Challange-problems: (Some operations on strings)
   - exercise1/funcs.py: A function to find all instances of a substring.
   
   - exercise2/funcs.py: Returns the text encoded by shifting each letter by n positions. (Caesar-style substitution ciphers).
   
   - exercise2/funcs.py: a Module for scoring blackjack hands.
   
-  - Implementing-a-currency-converter: (A project that use a webservice to obtain results according to criteria defined by the user and return it to him)
+- **Implementing-a-currency-converter: (A project that use a webservice to obtain results according to criteria defined by the user and return it to him)
   - currency.py: (Module for currency exchange)
     - before_space(String s): Returns the substring of s up to, but not including, the first space.
     - after_space(String s): Returns the substring of s after the first space
@@ -32,7 +32,7 @@ This repository contains different kind of Modules and projects, sorted by compl
 
 
 
-- Processing-images: (a Project consisting of various image processing functions)
+- **Processing-images: (a Project consisting of various image processing functions)
   - plugins.py: 
     - mono(image, sepia=False): Returns True after converting the image to monochrome.
     - flip(image,vertical=False): Returns True after reflecting the image horizontally or vertically.
@@ -42,7 +42,7 @@ This repository contains different kind of Modules and projects, sorted by compl
     - blur(image,radius=5): Returns True after bluring the image.
 
 
-- Auditing-datasets:(a Project to analyze data(json and cvs) from airlines company's flights and pilots information and weather reports during those flights and list all violations with details of each violation or write them to a file)
+- **Auditing-datasets:(a Project to analyze data(json and cvs) from airlines company's flights and pilots information and weather reports during those flights and list all violations with details of each violation or write them to a file)**
   - auditor/utils.py: (Module providing utility functions for this project.)
     - read_csv(filename): Returns the contents read from the CSV file filename.
     - write_csv(data,filename): Writes the given data out as a CSV file filename.
